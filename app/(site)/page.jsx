@@ -66,7 +66,7 @@ const HomePage = () => {
                 <Container>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
-                        whileInView={{ opacity: 1, y: -50 }}
+                        whileInView={{ opacity: 1, y: -70 }}
                         transition={{ type: 'spring', stiffness: 40 }}
                     >
                         <Box sx={{ maxWidth: 800 }}>
@@ -96,7 +96,7 @@ const HomePage = () => {
                                         sx={{ borderRadius: 2, backgroundColor: 'rgba(0,0,0,0.5)' }}
                                         variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)}
                                     />
-                                    <Typography color="white" variant="body2">Provide your email for alerts</Typography>
+                                    <Typography color="white" variant="body2">Provide your email for info</Typography>
                                 </FormControl>
                             </Box>
 
@@ -112,9 +112,9 @@ const HomePage = () => {
         </Container>
         <Container sx={{ pb: 5 }}>
 
-            <Grid sx={{ transform: 'translateY(-100px)' }} container justifyContent="center">
-                <Grid item xs={12} md={5}>
-                    <Box boxShadow={5} width="100%" borderRadius={3} backgroundColor="white" m={2}>
+            <Grid sx={{ transform: 'translateY(-120px)' }} container justifyContent="center">
+                <Grid item xs={12} md={5} >
+                    <Box boxShadow={8} width="100%" borderRadius={3} backgroundColor="white" >
                         <Box p={1} display="flex" alignItems="center">
                             <img src="/images/collisonpar3logo.png" height={40} width="auto" />
                             <Link target="_blank" href="https://airbnb.com/h/cp3">
