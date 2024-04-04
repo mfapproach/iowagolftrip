@@ -54,7 +54,7 @@ const HomePage = () => {
                 display="flex"
                 alignItems="center"
                 sx={{
-                    backgroundColor: 'rgba(0,0,0,0.6)',
+                    backgroundColor: 'rgba(0,0,0,0.4)',
                     position: 'absolute',
                     top: 0,
                     left: 0,
@@ -96,7 +96,7 @@ const HomePage = () => {
                                         sx={{ borderRadius: 2, backgroundColor: 'rgba(0,0,0,0.5)' }}
                                         variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)}
                                     />
-                                    <Typography color="primary" variant="body2">Provide your email for alerts</Typography>
+                                    <Typography color="white" variant="body2">Provide your email for alerts</Typography>
                                 </FormControl>
                             </Box>
 
@@ -112,8 +112,8 @@ const HomePage = () => {
         </Container>
         <Container sx={{ pb: 5 }}>
 
-            <Grid sx={{ transform: 'translateY(-100px)' }} container justifyContent="space-around">
-                <Grid item xs={10} md={5}>
+            <Grid sx={{ transform: 'translateY(-100px)' }} container justifyContent="center">
+                <Grid item xs={12} md={5}>
                     <Box boxShadow={5} width="100%" borderRadius={3} backgroundColor="white" m={2}>
                         <Box p={1} display="flex" alignItems="center">
                             <img src="/images/collisonpar3logo.png" height={40} width="auto" />
