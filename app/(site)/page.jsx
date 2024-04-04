@@ -46,10 +46,10 @@ const HomePage = () => {
                         transition={{ type: 'spring', stiffness: 40 }}
                     >
                         <Box sx={{ maxWidth: 600 }}>
-                            <Typography variant="h3" color="white">
+                            <Typography paragraph variant="h3" color="white">
                                 Unique experiences coming soon...
                             </Typography>
-                            <Button endIcon={<Launch />} href="https://airbnb.com/h/cp3" target="_blank">Explore Iowa Golf</Button>
+                            <Button variant="contained" color='primary' endIcon={<Launch />} href="https://airbnb.com/h/cp3" target="_blank">Explore Iowa Golf</Button>
                         </Box>
                     </motion.div>
                 </Container>
