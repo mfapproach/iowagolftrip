@@ -16,13 +16,13 @@ const themeOptions = createTheme({
     palette: {
         primary: {
             main: '#076551',
-            dark: '#485EDD',
+            dark: '#03493a',
         },
         secondary: {
             main: '#000',
         },
         button: {
-            main: '#5069F6',
+            main: '#076551',
         },
         // success: {
         //   main: '#006f3b',

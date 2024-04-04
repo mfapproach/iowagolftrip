@@ -42,7 +42,7 @@ const HomePage = () => {
                 <Container>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
-                        whileInView={{ opacity: 1, y: 0 }}
+                        whileInView={{ opacity: 1, y: -50 }}
                         transition={{ type: 'spring', stiffness: 40 }}
                     >
                         <Box sx={{ maxWidth: 600 }}>
